@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Mvc_Kutuphane_Otomasyonu.Entities.Model
 {
-    public class Hakkimizda
+    public class KullaniciRolleri
     {
         public int Id { get; set; }
-        public string Icerik { get; set; }
-        public string Aciklama { get; set; }
+        public int KullaniciId { get; set; }
+        public int RolId { get; set; }
     }
 }

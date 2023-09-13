@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace Mvc_Kutuphane_Otomasyonu.Entities.Model
 {
-    public class Hakkimizda
+    public class KitapKayitHareketleri
     {
         public int Id { get; set; }
-        public string Icerik { get; set; }
+        public int KullaniciId { get; set; }
+        public int KitapId { get; set; }
+        public string YapilanIslem { get; set; }
         public string Aciklama { get; set; }
+        public DateTime Tarih { get; set; }
     }
 }
