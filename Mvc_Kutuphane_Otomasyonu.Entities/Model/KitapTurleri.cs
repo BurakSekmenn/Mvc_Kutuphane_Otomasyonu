@@ -11,6 +11,7 @@ namespace Mvc_Kutuphane_Otomasyonu.Entities.Model
     [Table("KitapTurleri")]
     public class KitapTurleri
     {
+
         public  int Id { get; set; }
         [StringLength(50)]
         public string KitapTuru { get; set; }

@@ -51,6 +51,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Mapping\DuyurularMap.cs" />
+    <Compile Include="Mapping\EmanetKitaplarMap.cs" />
+    <Compile Include="Mapping\EntityTypeConfiguration.cs" />
+    <Compile Include="Mapping\HakkimizdaMap.cs" />
+    <Compile Include="Mapping\KitapHareketleriMap.cs" />
+    <Compile Include="Mapping\KitapKayitHareketleriMap.cs" />
+    <Compile Include="Mapping\KitapTurleriMap.cs" />
+    <Compile Include="Mapping\İletisimMap.cs" />
     <Compile Include="Migrations\202309131258085_CreateDatabase.cs" />
     <Compile Include="Migrations\202309131258085_CreateDatabase.designer.cs">
       <DependentUpon>202309131258085_CreateDatabase.cs</DependentUpon>
