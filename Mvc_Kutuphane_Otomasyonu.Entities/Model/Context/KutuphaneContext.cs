@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Mvc_Kutuphane_Otomasyonu.Entities.Mapping;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -27,5 +28,21 @@ namespace Mvc_Kutuphane_Otomasyonu.Entities.Model.Context
         public DbSet<KullaniciRolleri> kullaniciRolleris { get; set; }
         public DbSet<Roller> rollers { get; set; }
         public DbSet<Uyeler> Uyelers { get; set; }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Configurations.Add(new DuyurularMap());
+            modelBuilder.Configurations.Add(new EmanetKitaplarMap());
+            modelBuilder.Configurations.Add(new HakkimizdaMap());
+            modelBuilder.Configurations.Add(new İletisimMap());
+            modelBuilder.Configurations.Add(new KitapHareketleriMap());            modelBuilder.Configurations.Add(new KitapKayitHareketleriMap());
+            modelBuilder.Configurations.Add(new KitapMap());
+            modelBuilder.Configurations.Add(new KitapTurleriMap());
+            modelBuilder.Configurations.Add(new KullaniciHareketleriMap());
+            modelBuilder.Configurations.Add(new KullanicilarMap());
+            modelBuilder.Configurations.Add(new KullaniciRolleriMap());
+            modelBuilder.Configurations.Add(new RollerMap());
+            modelBuilder.Configurations.Add(new UyelerMap());
+        }
     }
 }

@@ -53,11 +53,16 @@
   <ItemGroup>
     <Compile Include="Mapping\DuyurularMap.cs" />
     <Compile Include="Mapping\EmanetKitaplarMap.cs" />
-    <Compile Include="Mapping\EntityTypeConfiguration.cs" />
     <Compile Include="Mapping\HakkimizdaMap.cs" />
     <Compile Include="Mapping\KitapHareketleriMap.cs" />
     <Compile Include="Mapping\KitapKayitHareketleriMap.cs" />
+    <Compile Include="Mapping\KitapMap.cs" />
     <Compile Include="Mapping\KitapTurleriMap.cs" />
+    <Compile Include="Mapping\KullaniciHareketleriMap.cs" />
+    <Compile Include="Mapping\KullanicilarMap.cs" />
+    <Compile Include="Mapping\KullaniciRolleriMap.cs" />
+    <Compile Include="Mapping\RollerMap.cs" />
+    <Compile Include="Mapping\UyelerMap.cs" />
     <Compile Include="Mapping\İletisimMap.cs" />
     <Compile Include="Migrations\202309131258085_CreateDatabase.cs" />
     <Compile Include="Migrations\202309131258085_CreateDatabase.designer.cs">

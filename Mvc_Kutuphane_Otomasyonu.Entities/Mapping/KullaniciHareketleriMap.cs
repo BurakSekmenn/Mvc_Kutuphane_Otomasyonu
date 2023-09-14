@@ -16,7 +16,7 @@ namespace Mvc_Kutuphane_Otomasyonu.Entities.Mapping
             this.ToTable("KullaniciHareketleri");
             this.HasKey(x => x.Id);//Primary Key
             this.Property(x => x.Id).HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);//Otomatik Artan Sayı
-            this.Property(x => x.Aciklama).HasMaxLength(5000);
+            this.Property(x => x.Aciklama).HasMaxLength(4000);
         }
     }
 }
