@@ -14,6 +14,9 @@ namespace Mvc_Kutuphane_Otomasyonu.Entities.Model
         public int KitapSayisi { get; set; }
         public DateTime KitapAldigiTarih { get; set; }
         public DateTime KitapIadeTarihi { get; set; }
-       
+
+        public Kitap Kitap { get; set; }
+        public Uyeler Uyeler { get; set; }
+
     }
 }

@@ -21,5 +21,14 @@ namespace Mvc_Kutuphane_Otomasyonu.Entities.Model
         public DateTime EklenmeTarihi { get; set; } = DateTime.Now;
         public DateTime GuncellemeTarihi { get; set; } = DateTime.Now;
         public bool Silindimi { get; set; } = false;
+
+
+        public KitapTurleri KitapTurleri { get; set; }//Teki Adlandırma
+
+        public List<EmanetKitaplar> EmanetKitaplar { get; set; }    
+
+        public List<KitapHareketleri> KitapHareketleri { get; set; }
+
+        public List<KitapKayitHareketleri> kitapKayitHareketleri { get; set; }  
     }
 }

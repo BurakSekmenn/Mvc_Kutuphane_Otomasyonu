@@ -20,7 +20,9 @@ namespace Mvc_Kutuphane_Otomasyonu.Entities.Mapping
             this.Property(x => x.KitapAdi).IsRequired().HasMaxLength(100);
             this.Property(x => x.YazarAdi).IsRequired().HasMaxLength(100);
             this.Property(x => x.YayinEvi).IsRequired().HasMaxLength(150);
-            this.Property(x => x.Aciklama).HasMaxLength(5000);
+            this.Property(x => x.Aciklama).HasMaxLength(4000);
+
+            this.HasRequired(x => x.KitapTurleri).WithMany(x => x.Kitaplar).HasForeignKey(x => x.KitapTuruId);
         }
     }
 }

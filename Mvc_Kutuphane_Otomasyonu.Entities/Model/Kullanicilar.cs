@@ -16,6 +16,10 @@ namespace Mvc_Kutuphane_Otomasyonu.Entities.Model
         public string Adres { get; set; }
         public string Email { get; set; }
         public DateTime KayitTarihi { get; set; }
+
+        public List<KullaniciHareketleri> kullaniciHareketleri { get;set; }
+
+        public List<KullaniciRolleri> kullaniciRolleri { get;set; }    
         
     }
 }

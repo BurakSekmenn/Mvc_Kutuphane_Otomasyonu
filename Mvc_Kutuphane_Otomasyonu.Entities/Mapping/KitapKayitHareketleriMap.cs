@@ -17,6 +17,11 @@ namespace Mvc_Kutuphane_Otomasyonu.Entities.Mapping
             this.HasKey(x => x.Id);//Primary Key
             this.Property(x => x.Id).HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);//Otomatik Artan Sayı
             this.Property(x=>x.YapilanIslem).IsRequired().HasMaxLength(150);
+            this.HasRequired(x => x.Kitap).WithMany(x => x.kitapKayitHareketleri).HasForeignKey(x => x.KitapId);
+
+
+
+
         }
     }
 }

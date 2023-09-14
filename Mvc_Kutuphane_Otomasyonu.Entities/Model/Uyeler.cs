@@ -16,5 +16,7 @@ namespace Mvc_Kutuphane_Otomasyonu.Entities.Model
         public string ResimYolu { get; set; }
         public int OkuKitapSayisi { get; set; }
         public DateTime KayitTarihi { get; set; }
+
+        public List<EmanetKitaplar> EmanetKitaplar { get; set; }
     }
 }

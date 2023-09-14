@@ -11,5 +11,10 @@ namespace Mvc_Kutuphane_Otomasyonu.Entities.Model
         public int Id { get; set; }
         public int KullaniciId { get; set; }
         public int RolId { get; set; }
+
+        public Kullanicilar Kullanicilar { get; set; }
+
+        public Roller Roller { get; set; }
+
     }
 }

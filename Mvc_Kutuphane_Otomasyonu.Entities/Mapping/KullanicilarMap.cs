@@ -21,8 +21,8 @@ namespace Mvc_Kutuphane_Otomasyonu.Entities.Mapping
             this.Property(x => x.Email).IsRequired().HasMaxLength(150);
             this.Property(x => x.Telefon).IsRequired().HasMaxLength(200);
             this.Property(x => x.Adres).IsRequired().HasMaxLength(500);
-         
 
+           
         }
     }
 }

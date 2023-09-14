@@ -16,5 +16,7 @@ namespace Mvc_Kutuphane_Otomasyonu.Entities.Model
         [StringLength(50)]
         public string KitapTuru { get; set; }
         public string Aciklama { get; set; }
+
+        public List<Kitap> Kitaplar { get; set; }//Çoğul Adlandırma
     }
 }
