@@ -10,6 +10,7 @@
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
+            AutomaticMigrationDataLossAllowed = true;
         }
 
         protected override void Seed(Mvc_Kutuphane_Otomasyonu.Entities.Model.Context.KutuphaneContext context)

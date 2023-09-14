@@ -51,6 +51,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Migrations\202309131258085_CreateDatabase.cs" />
+    <Compile Include="Migrations\202309131258085_CreateDatabase.designer.cs">
+      <DependentUpon>202309131258085_CreateDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Context\KutuphaneContext.cs" />
     <Compile Include="Model\Duyrular.cs" />
     <Compile Include="Model\EmanetKitaplar.cs" />
@@ -67,7 +72,11 @@
     <Compile Include="Model\Uyeler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202309131258085_CreateDatabase.resx">
+      <DependentUpon>202309131258085_CreateDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
