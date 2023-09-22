@@ -35,7 +35,8 @@ namespace Mvc_Kutuphane_Otomasyonu.Entities.Model.Context
             modelBuilder.Configurations.Add(new EmanetKitaplarMap());
             modelBuilder.Configurations.Add(new HakkimizdaMap());
             modelBuilder.Configurations.Add(new İletisimMap());
-            modelBuilder.Configurations.Add(new KitapHareketleriMap());            modelBuilder.Configurations.Add(new KitapKayitHareketleriMap());
+            modelBuilder.Configurations.Add(new KitapHareketleriMap());           
+            modelBuilder.Configurations.Add(new KitapKayitHareketleriMap());
             modelBuilder.Configurations.Add(new KitapMap());
             modelBuilder.Configurations.Add(new KitapTurleriMap());
             modelBuilder.Configurations.Add(new KullaniciHareketleriMap());
