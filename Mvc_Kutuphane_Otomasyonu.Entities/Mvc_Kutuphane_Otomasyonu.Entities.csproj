@@ -51,6 +51,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAL\DuyrularDAL.cs" />
+    <Compile Include="DAL\EmanetKitaplarDAL.cs" />
+    <Compile Include="DAL\HakkimizdaDAL.cs" />
+    <Compile Include="DAL\IletisimDAL.cs" />
+    <Compile Include="DAL\KitapDAL.cs" />
+    <Compile Include="DAL\KitapHareketleriDAL.cs" />
+    <Compile Include="DAL\KitapKayitHareketleri.cs" />
+    <Compile Include="DAL\KitapTurleriDAL.cs" />
+    <Compile Include="DAL\KullaniciHareketleriDAL.cs" />
+    <Compile Include="DAL\KullanicilarDAL.cs" />
+    <Compile Include="DAL\KullaniciRolleriDAL.cs" />
+    <Compile Include="DAL\RollerDAL.cs" />
+    <Compile Include="DAL\UyelerDAL.cs" />
     <Compile Include="Interfaces\IGenericRepository.cs" />
     <Compile Include="Mapping\DuyurularMap.cs" />
     <Compile Include="Mapping\EmanetKitaplarMap.cs" />
