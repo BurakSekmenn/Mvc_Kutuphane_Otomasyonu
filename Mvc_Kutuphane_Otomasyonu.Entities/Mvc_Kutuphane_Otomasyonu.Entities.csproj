@@ -108,6 +108,19 @@
     <Compile Include="Model\Uyeler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\GenericRepository.cs" />
+    <Compile Include="Validations\DuyurularValidator.cs" />
+    <Compile Include="Validations\EmanetKitaplarValidator.cs" />
+    <Compile Include="Validations\HakkimizdaValidator.cs" />
+    <Compile Include="Validations\KitapHareketleriValidator.cs" />
+    <Compile Include="Validations\KitapKayitHareketleriValidator.cs" />
+    <Compile Include="Validations\KitapTurleriValidator.cs" />
+    <Compile Include="Validations\KitapValidator.cs" />
+    <Compile Include="Validations\KullaniciHareketleriValidator.cs" />
+    <Compile Include="Validations\KullanicilarValidator.cs" />
+    <Compile Include="Validations\KullaniciRolleriValidator.cs" />
+    <Compile Include="Validations\RollerValidator.cs" />
+    <Compile Include="Validations\UyelerValidator.cs" />
+    <Compile Include="Validations\İletisimValidator.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202309131258085_CreateDatabase.resx">
