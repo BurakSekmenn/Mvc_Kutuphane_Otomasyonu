@@ -1,4 +1,6 @@
-﻿using System;
+﻿using FluentValidation.Attributes;
+using Mvc_Kutuphane_Otomasyonu.Entities.Validations;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace Mvc_Kutuphane_Otomasyonu.Entities.Model
 {
+    [Validator(typeof(İletisimValidator))]
     public class Iletisim
     {
         public int Id { get; set; }

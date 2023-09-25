@@ -22,7 +22,7 @@ namespace Mvc_Kutuphane_Otomasyonu.Entities.Mapping
             this.Property(x => x.Baslik).IsRequired().HasMaxLength(150);// MAx ve zorunlu alan sayısı yapıldı
             this.Property(x => x.Duyuru).IsRequired().HasMaxLength(500);
             this.Property(x => x.Acıklama).HasMaxLength(5000);
-            this.Property(x => x.Id).HasColumnName("id"); // Kolon Adlandırma
+            this.Property(x => x.Id).HasColumnName("Id"); // Kolon Adlandırma
             this.Property(x => x.Baslik).HasColumnName("Baslik");// Kolon Adlandırma
             this.Property(x => x.Duyuru).HasColumnName("Duyuru");// Kolon Adlandırma
             this.Property(x => x.Acıklama).HasColumnName("Aciklama");// Kolon Adlandırma

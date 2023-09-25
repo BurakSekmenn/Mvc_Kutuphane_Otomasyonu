@@ -26,5 +26,11 @@ namespace Mvc_Kutuphane_Otomasyonu.Controllers
 
             return View();
         }
+        public ActionResult AdminIndex()
+        {
+            
+
+            return View();
+        }
     }
 }
